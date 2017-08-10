@@ -3,7 +3,7 @@
 import random
 
 #open, read word file and place into list array
-with open("hang_words.txt") as w:
+with open("hangman_text.txt") as w:
     word = w.readlines()
 
 # Strip any whitespace after word
